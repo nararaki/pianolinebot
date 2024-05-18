@@ -1,3 +1,4 @@
+
 # Logs
 logs
 *.log
@@ -128,3 +129,39 @@ dist
 .yarn/build-state.yml
 .yarn/install-state.gz
 .pnp.*
+=======
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+
+# Environment variables
+.env
+
+# TypeScript compiled files
+dist/
+build/
+*.js
+*.js.map
+
+# TypeScript cache
+.rpt2_cache/
+
+# Editor directories and files
+.vscode/
+.idea/
+*.swp
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Log files
+*.log
+
+# MySQL database dumps (optional, if applicable)
+*.sql
+*.sqlite
+*.sqlite3
+
+
